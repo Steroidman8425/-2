@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device -width, initial-scale=1.0">
+    <title> Новый проект 2</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+        content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+         margin: 0;
+        }
+        h1 {
+            font-size: 50px;
+            color: chocolate;
+        }
+        p {
+            font-size: 30px;
+            color: chocolate;
+        }
+        a {
+           font-size: 40px;
+            color: black;
+         }
+         .content {
+            text-align: center;
+         }
+         .output {
+    font-size: 50px;
+    color: red;
+}
+button {
+    font-size: 50px;
+    color: black;
+}
+</style>
+</head> 
+<content>
+    <div class="content">
+     <h1>Фильмы и Игры Terminator</h1>
+     <p> Смотрите 3 части Терминатора по ссылкам ниже. </p>
+     <p> Часть Первая </p>
+     <img src="https://papik.pro/grafic/uploads/posts/2023-03/1680145670_papik-pro-p-terminator-poster-14.jpg"
+       alt="Первый фильм"
+       width="400">
+       <br>
+       <a href="https://kinogo-la1.biz/films/7622-terminator-1984-smotret-na-kinogo.html">   Смотреть Первый Фильм</a>
+       <br><br>
+    <p> Часть Вторая </p>
+    <img src="https://mtr.server-img.lfstrm.tv/image/aHR0cDovL210ci5zZXJ2ZXItY21zLmxmc3RybS50di9hcmNoaXZlLWltZy9zdGF0aWMvbWVkaWEvM2YvN2YvM2Y3Zjk5YWQzZmYzNmNkMjY4NzU4OWEzNTVmNWU4MTguanBn"
+    alt="Второй фильм"
+    width="400">
+    <br>
+    <a href="https://kinogo-la1.biz/films/7080-terminator-2-sudnyj-den-1991-smotret-na-kinogo.html">  Смотреть Второй Фильм </a>
+    <br><br>
+    <p> Часть Третья</p>
+    <img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65377499ae836d0761b8ca8b_6570a13352f7e449b65f76d8/scale_1200"
+    alt="Третий Фильм"
+    width="400">
+    <br>
+    <a href="https://terminator-lordfilm.ru/film/terminator-3-vosstanie-mashin-2003/">    Смотреть Третий Фильм </a>
+    <br><br>
+    <p> Игра Terminator Resistance</p>
+    <img src="https://img.goodfon.ru/original/1920x1080/c/2b/terminator-mashiny-voina-budushchee-terminator-resistance.jpg"
+    alt="Игра плачет без тебя"
+    width="400">
+    <br>
+    <a href="https://store.steampowered.com/app/954740/Terminator_Resistance/">  Купить Игру в Steam </a>
+    <br><br>
+    <body> 
+    <button>НАЖМИ МЕНЯ</button>
+    <div class="output"></div>
+    <script>
+    console. log(1);
+     const button = document.querySelector('button');
+    const output = document.querySelector('.output')
+     button.addEventListener('click', function() {
+        output.innerHTML = 'Cпасибо, что открыли. Хорошего дня!';
+    });
+</script>
+</body>
+</html>
